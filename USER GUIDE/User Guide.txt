@@ -1,0 +1,38 @@
+
+1. Extract and copy loginsystem folder inside root directory (for xampp xampp/htdocs, for wamp wamp/www, for lamp var/www/html)
+
+2. Launch XAMPP
+
+	- run Apache
+	- run MySQL
+
+3. Open PHPMyAdmin (http://localhost/phpmyadmin) using browser
+
+4. Create a database with name loginsystem and import loginsystem.sql file(given inside the zip package in SQL file folder)
+
+5.Run the script 
+
+	- User module : http://localhost/loginsystem
+	
+6. You can either signup or login
+
+	Signup : create new account then login
+
+			@
+	Login 
+	User Email : "michael.lawson@reqres.in"
+	Password: "Test@123"
+
+	
+7. To update or delete account for Admin
+
+	Run the script
+	
+		- Admin Panel : http://localhost/loginsystem/admin
+
+
+	Then straight away to login using
+
+		- Admin Username : "admin"
+		- Password : "Test@123"
+
